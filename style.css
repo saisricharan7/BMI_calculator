@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+.input{
+    display: inline;
+    flex: 50%;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+.input-fields{
+    border:1px solid goldenrod;
+    padding: 5px;
+    width:60%;
+}
+.input-field{
+    margin: 10px;
+}
+.output{
+    display: inline;
+    flex: 50%;
+}
+.category{
+    color: red;
+}
+button{
+    margin:3px;
+}
+#calculate{
+    background-color: rgb(49, 153, 49);
+}
+.result-display{
+    margin-top: 40%;
+}
